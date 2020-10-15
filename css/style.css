@@ -174,13 +174,37 @@ a:hover {
   font-size: 2rem;
   position: relative;
 }
-
 .title-left:before {
   content: '';
   position: absolute;
   height: 3px;
   background-color: #0078ff;
   width: 100px;
+  bottom: -12px;
+}
+
+.title-project {
+  position: relative;
+}
+
+.title-project:before {
+  content: '';
+  position: absolute;
+  height: 3px;
+  background-color: #0078ff;
+  width: 100px;
+  bottom: -12px;
+}
+
+.title-blog {
+  position: relative;
+}
+.title-blog:before {
+  content: '';
+  position: absolute;
+  height: 3px;
+  background-color: #0078ff;
+  width: 122px;
   bottom: -12px;
 }
 
@@ -224,6 +248,24 @@ a:hover {
   background-color: #0078ff;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
+  transition: all 500ms ease;
+}
+
+.w-like .ico-circle {
+  height: 40px;
+  width: 40px;
+  font-size: 1.7rem;
+  border-radius: 50%;
+  line-height: 1.4;
+  margin: 0 15px 0 0;
+  box-shadow: 0 0 0 2px black;
+  transition: all 500ms ease;
+}
+
+.w-like .ico-circle:hover {
+  background-color: grey;
+  color: #fff;
+  box-shadow: 0 0 0 3px #ebebeb;
   transition: all 500ms ease;
 }
 
@@ -769,6 +811,7 @@ a:hover {
 ======================================*/
 
 .work-box {
+  height: 300px;
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -810,7 +853,7 @@ a:hover {
 }
 
 .work-content .w-like a {
-  color: #0078ff;
+  color: black;
 }
 
 .work-content .w-like .num-like {
@@ -917,6 +960,10 @@ a:hover {
   display: inline-block;
 }
 
+.card-img{
+  height: 200px;
+  margin-bottom: 1rem;
+}
 /*======================================
 //--//-->   BLOG-SINGLE
 ======================================*/
@@ -1273,4 +1320,9 @@ footer .credits a {
 #contact{
   display: flex;
   justify-content: space-around;
+}
+
+.portfolio-mf{
+  background-color:#ebebeb;
+  padding-bottom: 75px;
 }
