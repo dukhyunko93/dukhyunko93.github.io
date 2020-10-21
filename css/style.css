@@ -835,6 +835,8 @@ a:hover {
 
 .work-content {
   padding: 2rem 3% 1rem 4%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .work-content .w-more {
