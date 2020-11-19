@@ -963,8 +963,7 @@ a:hover {
 }
 
 .card-img{
-  height: 200px;
-  margin-bottom: 1rem;
+  height: fit-content;
 }
 /*======================================
 //--//-->   BLOG-SINGLE
@@ -1321,6 +1320,7 @@ footer .credits a {
 
 #contact{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
