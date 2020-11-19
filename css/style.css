@@ -296,12 +296,12 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  box-shadow: 0 0 0 3px black;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #0078ff;
+  background-color: black;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
@@ -448,13 +448,12 @@ a:hover {
   bottom: 15px;
   transition: background 0.5s;
   z-index: 11;
+  padding-top: 12px;
 }
 
-.back-to-top ion-icon {
-  height: 100%;
-  width: 100%;
-  padding-top: 12px;
-  color: #fff;
+.back-to-top i {
+  font-size: large;
+  color: black;
 }
 
 /* Prelaoder */
