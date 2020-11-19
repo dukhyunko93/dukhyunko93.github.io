@@ -1,6 +1,6 @@
 (function ($) {
-	"use strict";
-	var nav = $('nav');
+  "use strict";
+  var nav = $('nav');
   var navHeight = nav.outerHeight();
   
   $('.navbar-toggler').on('click', function() {
@@ -35,7 +35,7 @@
 	/*--/ Star ScrollTop /--*/
 	$('.scrolltop-mf').on("click", function () {
 		$('html, body').animate({
-			scrollTop: 0
+			scrollTop: 1000
 		}, 1000);
 	});
 
@@ -52,7 +52,7 @@
 			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
 			if (target.length) {
 				$('html, body').animate({
-					scrollTop: (target.offset().top - navHeight + 5)
+					scrollTop: (target.offset().top - navHeight + 70)
 				}, 1000, "easeInOutExpo");
 				return false;
 			}
