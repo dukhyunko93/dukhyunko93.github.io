@@ -977,6 +977,10 @@ a:hover {
 //--//-->   BLOG
 ======================================*/
 
+.card-blog{
+  margin-bottom: 3rem;
+}
+
 .card-blog .card-body {
   position: relative;
 }
