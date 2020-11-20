@@ -344,7 +344,7 @@ a:hover {
 }
 
 .list-ico span {
-  color: #0078ff;
+  color: black;
   margin-right: 10px;
 }
 
@@ -879,6 +879,7 @@ a:hover {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  border: 1px solid rgba(0,0,0,.125);
 }
 
 .work-box:hover img {
@@ -1168,7 +1169,6 @@ a:hover {
 /*======================================
 //--//-->   CONTACT
 ======================================*/
-
 .footer-paralax {
   padding: 4rem 0 0 0;
 }
@@ -1402,9 +1402,12 @@ footer .credits a {
 .button-links{
   background-color: transparent;
   border: solid 1px black;
+  margin-bottom: 10px;
 }
 
 .button-links:hover{
-  background-color: gray;
-  color: white;
+  background-color: grey;
+  color: #fff;
+  box-shadow: 0 0 0 3px #ebebeb;
+  transition: all 500ms ease;
 }
